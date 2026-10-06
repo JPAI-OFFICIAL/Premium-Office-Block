@@ -1,58 +1,25 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HOME OFFICE SHOP - Link Hub</title>
-<style>
-  body{margin:0;background:#0A1931;font-family:Prompt,sans-serif}
-  .hero{position:relative;width:100%;max-width:1200px;margin:0 auto}
-  .hero img{width:100%;display:block}
-  .btn-shop{
-    position:absolute;
-    left:13%;
-    bottom:14%;
-    width:22%;
-    height:6%;
-    display:flex;align-items:center;justify-content:center;
-    background:#E8D5A3;color:#0A1931;
-    border-radius:50px;
-    text-decoration:none;
-    font-weight:700;
-    font-size:14px;
-  }
-  .btn-wholesale{
-    position:absolute;
-    right:13%;
-    bottom:14%;
-    width:22%;
-    height:6%;
-    display:flex;align-items:center;justify-content:center;
-    background:#E8D5A3;color:#0A1931;
-    border-radius:50px;
-    text-decoration:none;
-    font-weight:700;
-    font-size:14px;
-  }
-  /* บนมือถือปรับตำแหน่งปุ่ม */
-  @media(max-width:768px){
-    .btn-shop{left:15%;bottom:11%;width:28%;font-size:11px}
-    .btn-wholesale{right:15%;bottom:11%;width:32%;font-size:11px}
-  }
-</style>
-</head>
-<body>
+<!-- บล็อก 1 : ใช้รูปสวยๆ ของพี่เลย 100% ไม่เปลี่ยนอะไร -->
+<div id="block1" style="position:relative;max-width:1200px;margin:0 auto">
+  <img src="images/home-office-shop-hub.jpg" style="width:100%;display:block" alt="HOME OFFICE SHOP">
 
-<div class="hero">
-  <!-- ใช้ภาพที่พี่ส่งมา -->
-  <img src="images/home-office-shop-hub.jpg" alt="HOME OFFICE SHOP Link Hub">
-  
-  <!-- ปุ่ม SHOP กดไป shop.homeofficeshop.com -->
-  <a href="https://shop.homeofficeshop.com" target="_blank" class="btn-shop">VISIT SHOP →</a>
-  
-  <!-- ปุ่ม WHOLESALE กดไป wholesale.homeofficeshop.com -->
-  <a href="https://wholesale.homeofficeshop.com" target="_blank" class="btn-wholesale">VISIT WHOLESALE →</a>
+  <!-- ทุกปุ่มในรูป ทำให้กดลงบล็อก 2 ได้หมด -->
+  <!-- 4 ปุ่มบน -->
+  <a href="#block2" style="position:absolute;left:62%;top:3%;width:8%;height:4%;display:block" title="PRODUCTS"></a>
+  <a href="#block2" style="position:absolute;left:71%;top:3%;width:6%;height:4%;display:block" title="ABOUT"></a>
+  <a href="#block2" style="position:absolute;left:78%;top:3%;width:10%;height:4%;display:block" title="WHOLESALE"></a>
+  <a href="#block2" style="position:absolute;left:89%;top:3%;width:8%;height:4%;display:block" title="SUPPORT"></a>
+
+  <!-- 2 ปุ่มล่าง -->
+  <a href="#block2" style="position:absolute;left:13%;bottom:13%;width:22%;height:7%;display:block" title="VISIT SHOP"></a>
+  <a href="#block2" style="position:absolute;right:13%;bottom:13%;width:24%;height:7%;display:block" title="VISIT WHOLESALE"></a>
 </div>
 
-</body>
-</html>
+<!-- บล็อก 2 -->
+<div id="block2" style="max-width:900px;margin:0 auto;padding:40px 20px;background:#fff">
+  <h2 style="text-align:center;color:#0A1931">OFFICE ตัวอย่าง</h2>
+  <img src="images/janphen-office-1.jpg" style="width:100%;border-radius:20px;margin-top:20px">
+  <img src="images/janphen-office-2.jpg" style="width:100%;border-radius:20px;margin-top:20px">
+  <img src="images/janphen-office-3.jpg" style="width:100%;border-radius:20px;margin-top:20px">
+  <img src="images/janphen-office-4.jpg" style="width:100%;border-radius:20px;margin-top:20px">
+  <img src="images/janphen-office-5.jpg" style="width:100%;border-radius:20px;margin-top:20px">
+</div>
